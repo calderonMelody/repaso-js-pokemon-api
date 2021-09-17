@@ -1,3 +1,13 @@
+//Promesas
+//sabemos que se va a ejecutar pero no sabemos cuando
+//El codigo asincrono se corre dsp del codigo sincrono, dependiendo del codigo
+//Un código síncrono es aquel código donde cada instrucción espera a la anterior para ejecutarse
+//mientras que un código asíncrono no espera a las instrucciones diferidas y continúa con su ejecución.
+//Yo hice este ejemplo hace tiempo entre asíncrono y síncrono con comida jeje: supongamos que llamamos a un restaurante y le pedimos al cocinero o a la cocinera (que sería el programa 👩‍🍳), una orden de pizza con una guarnición de papas fritas. 🍕🍟 Cuando le pedimos al programa (cocinero/a 👩‍🍳) que haga esa acción, que tarde mucho, llega ese momento, ejecuta la orden de pizza, pero hasta que no termine esa acción, no pasará a hacer las papas fritas. 🍕⏳🍟
+//A diferencia de la programación asíncrona, no espera terminar la pizza para luego continuar con las papas fritas, sino, que mientras el/la cocinero/a prepara la pizza, ejecuta otras cosas (las papas fritas). ¿Esto con qué fin? De que le rinda y vaya mucho más rápido para que como clientes, podamos tener nuestra orden lista lo más pronto. ⚡
+//hacemos una consulta
+
+
 //fetch("https://api.mercadolibre.com/sites/MLA/search?q=Motorola")
 //rsponsepuede ir cualquier palabra, esta info la estamos transformandola en json y nos devuelve otra promesa
   //.then(response => response.json())
